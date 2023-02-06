@@ -9,19 +9,19 @@ opcao : literal
 inicio
 
 repita
-   escreval("Digite 1 para converter quilômetros em metros!!!")
-   escreval("Digite 2 para converter metros cúbicos em litros")
+   escreval("Digite 1 para converter metros cúbicos em litros")
+   escreval("Digite 2 para converter quilômetros em metros!!!")
    escreval("Digite 3 para sair do programa")
    leia(opcao)
 
-   se opcao ="1" entao
+   se opcao ="2" entao
       escreval("Digite um valor para converter quilômetros em metros")
       leia(quilometro)
       metro <- quilometro*1000
       escreval(quilometro, " quilômetro(s) equivale a ", metro, " metro(s)")
       escreval("")
    senao
-      se opcao ="2" entao
+      se opcao ="1" entao
          escreval("Digite um valor para converter metros cúbicos em litros")
          leia(litro)
          cubico <- litro*1000

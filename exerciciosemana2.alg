@@ -9,7 +9,7 @@ opcao : literal
 inicio
 
 repita
-   escreval("Digite 1 para converter quilômetros em metros")
+   escreval("Digite 1 para converter quilômetros em metros!!!")
    escreval("Digite 2 para converter metros cúbicos em litros")
    escreval("Digite 3 para sair do programa")
    leia(opcao)
